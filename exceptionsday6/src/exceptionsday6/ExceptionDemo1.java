@@ -1,6 +1,6 @@
 package exceptionsday6;
-
 import java.util.InputMismatchException;
+
 import java.util.Scanner;
 
 public class ExceptionDemo1 {
@@ -16,7 +16,7 @@ public class ExceptionDemo1 {
 			Scanner scanner = new Scanner(System.in);
 			int a = scanner.nextInt();
 			int b = scanner.nextInt();
-			int c = a / b;// POINT of EXCEPTION
+			int c = a / b;// POINT of EXCEPTION.
 			System.out.println(c);
 		} catch (ArithmeticException e) {
 			System.out.println("cannot divide by zero");
